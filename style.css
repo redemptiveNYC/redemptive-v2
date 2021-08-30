@@ -24,9 +24,7 @@
     background: rgb(153, 28, 153);
   }
 
-
   /* header */
-
   .header_logo{
       width: 2.96rem;
       height: 6rem;
@@ -58,6 +56,7 @@
     position: absolute;
     top: 6.9rem;
     right: 8rem;
+    cursor: pointer;
     
 }
 .header_intro{
@@ -71,6 +70,7 @@
     width: 175.684rem;
     height: 70.2rem;
     background-image: url("./icons/Group1-1.svg");
+    background-repeat: no-repeat;
 }
 .hero{
     width: 100vw;
@@ -105,10 +105,11 @@
     background-color: #F8C751;
     border-radius: 0.5rem;
     margin-top: 3rem;
+    border: none;
+    cursor: pointer;
 }
 .header_hero_btn a{ 
     font-family: Helvetica Neue;
-    
     font-weight: bold;
     font-size: 3.2rem;
     line-height: 3.9rem;
@@ -152,6 +153,11 @@
 .about_grid_icon{
     width: 10rem;
     height: 10rem;
+}
+.who_we_are_bg {
+    background-image: url(./icons/LooperBG.svg);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .who_we_are{
     width: 100%;
@@ -244,7 +250,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5rem 8rem;
+    margin: 15rem 8rem 5rem 8rem;
 }
 
 .footer_box_txt{
@@ -252,7 +258,6 @@
     font-weight: bold;
     font-size: 3.2rem;
     line-height: 3.9rem;
-
     color: #000000;
 }
 
@@ -262,6 +267,8 @@
     border-radius: 4px;
     width: 35rem;
     height: 6rem;
+    border: none;
+    cursor: pointer;
 }
 .footer_box_btn a{
     font-style: normal;
@@ -330,15 +337,16 @@
     width: 2.4rem;
     height: 2.4rem;
     margin: 0;
+    cursor: pointer;
 }
 .footer_copyright{
+    margin-bottom: 7rem;
     font-style: normal;
     font-weight: normal;
     font-size: 2rem;
     line-height: 2.4rem;
     /* identical to box height */
     text-align: center;
-
     color: #9AA1B8;
 }
 
