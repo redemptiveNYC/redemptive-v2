@@ -59,12 +59,10 @@ body {
   right: 8rem;
   cursor: pointer;
 }
-.header {
-  height: 60vh;
-}
 .header_intro {
   width: 80%;
   margin-top: 20rem;
+  margin-bottom: 12rem;
   text-align: center;
 }
 .header_hero_p_wrapper {
@@ -365,9 +363,6 @@ body {
 .yellow {
   color: #f8c751;
 }
-.footer_logo_txt_mob {
-  display: none;
-}
 
 @media only screen and (max-width: 1280px) {
   .footer_box_txt {
@@ -429,6 +424,10 @@ body {
   }
 }
 @media only screen and (max-width: 850px) {
+  .header_intro {
+    background-color: darkred;
+    margin-bottom: 20rem;  
+  }
   .header_hero_p_wrapper {
     width: 80%;
   }
@@ -519,9 +518,6 @@ body {
   html {
     font-size: 45%;
   }
-  .header {
-    height: 50vh;
-  }
   .header_hero_p_wrapper {
     width: 80%;
   }
@@ -563,9 +559,6 @@ body {
 }
 
 @media only screen and (max-width: 450px) {
-  .header_logo_txt {
-    display: none;
-  }
   .header_hero_h {
     font-size: 4.5rem;
   }
@@ -577,9 +570,6 @@ body {
 @media only screen and (max-width: 400px) {
   html {
     font-size: 40%;
-  }
-  .header {
-    height: 40vh;
   }
   .header_hero_h {
     font-size: 4rem;
