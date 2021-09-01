@@ -59,6 +59,11 @@ body {
   right: 8rem;
   cursor: pointer;
 }
+.header_btn:hover {  
+  color: #292d41;
+  background-color: #f8c751;
+  transition: all 300ms ease; 
+}
 .header_intro {
   width: 80%;
   margin-top: 20rem;
@@ -105,7 +110,11 @@ body {
   color: #292d41;
   text-decoration: none;
 }
-
+.header_hero_btn:hover {  
+  background-color: #f7bc35;
+  transition: all 300ms ease; 
+  text-decoration: none;
+}
 /* grid */
 .about_grid_container {
   display: -webkit-box;
@@ -282,10 +291,14 @@ body {
   color: #f8c751;
   text-decoration: none;
 }
+.footer_box_btn:hover {  
+  background-color: #f0ece3;
+  transition: all 300ms ease; 
+  text-decoration: none;
+}
 .footer_contact {
   display: flex;
 }
-
 .footer_contact_social_media {
   text-align: center;
   width: 35rem;
@@ -425,10 +438,12 @@ body {
 }
 @media only screen and (max-width: 850px) {
   .header_intro {
-    margin-bottom: 20rem;  
+    margin-bottom: 15rem;  
   }
   .header_hero_p_wrapper {
     width: 80%;
+    margin-top: 0;
+    margin-bottom: 3rem;
   }
   .about_grid_container {
     -webkit-box-orient: vertical;
@@ -443,6 +458,9 @@ body {
   }
   .about_grid:first-child {
     margin-top: -5rem;
+  }
+  .who_we_are_txt {
+    margin-bottom: 0;
   }
   .our_service_container {
     -webkit-box-orient: vertical;
@@ -499,7 +517,7 @@ body {
   .footer_logo_txt_wrap {
     text-align: center;
     width: 90%;
-    margin-top: 2rem;
+    margin-top: .5rem;
     margin-bottom: 4rem;
   }
   .footer_contact_social_media {
@@ -508,6 +526,7 @@ body {
   }
   .footer_copyright {
     margin-bottom: 4rem;
+    margin-top: 0;
   }
   .who_we_are_h {
     font-size: 3.3rem;
@@ -519,12 +538,15 @@ body {
   }
   .header_hero_p_wrapper {
     width: 80%;
+    margin-top: 0;
+    margin-bottom: 3rem;
   }
 }
 @media only screen and (max-width: 600px) {
   .header_hero_h {
     font-size: 5.5rem;
     text-align: center;
+    line-height: 7rem;
   }
   .who_we_are_h {
     font-size: 2.8rem;
@@ -552,6 +574,10 @@ body {
   .center_icon {
     padding: 6rem;
   }
+  .first_icon {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+  }
   .footer_logo_txt {
     margin-right: 2rem;
   }
@@ -563,9 +589,11 @@ body {
   }
   .header_hero_h {
     font-size: 4.5rem;
+    line-height: 6rem;
   }
   .header_intro {
     width: 100%;
+    margin-bottom: 12rem;
   }
 }
 
@@ -573,15 +601,15 @@ body {
   html {
     font-size: 40%;
   }
+  .header_intro {
+    margin-top: 15rem;
+  }
   .header_hero_h {
     font-size: 4rem;
-  }
-  .header_hero_p {
-    padding: 0 1rem;
+    line-height: 4.5rem;
   }
   .who_we_are_h {
     padding: 0 4rem;
-    font-size: 2.5rem;
   }
   .who_we_are_txt {
     padding: 0 4rem;
@@ -592,6 +620,9 @@ body {
   }
   .header_hero_btn a {
     font-size: 2.5rem;
+  }
+  .footer_logo_txt_wrap {
+    margin-top: 0;
   }
 }
 @media only screen and (max-width: 325px) {
