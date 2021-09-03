@@ -610,7 +610,6 @@ body {
   }
   .who_we_are_h {
     padding: 0 4rem;
-    
   }
   .who_we_are_txt {
     padding: 0 4rem;
@@ -622,9 +621,10 @@ body {
   .header_hero_btn a {
     font-size: 2.5rem;
   }
-  /* .footer_logo_txt_wrap {
-    margin-top: 0;
-  } */
+  .footer_logo_txt_wrap {
+    margin-top: -3rem;
+    line-height: 0;
+  }
 }
 @media only screen and (max-width: 325px) {
   html {
