@@ -509,24 +509,15 @@ body {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    text-align: center;
   }
   .footer_logo_container {
-    margin: 0;
-  }
-  .footer_logo_txt_wrap {
-    text-align: center;
-    width: 90%;
-    margin-top: .5rem;
-    margin-bottom: 4rem;
+    margin-left: 4rem;
   }
   .footer_contact_social_media {
     width: 100%;
-    margin-bottom: 4rem;
   }
   .footer_copyright {
-    margin-bottom: 4rem;
-    margin-top: 0;
+    margin-bottom: 3rem;
   }
   .who_we_are_h {
     font-size: 3.3rem;
@@ -549,10 +540,14 @@ body {
     line-height: 7rem;
   }
   .who_we_are_h {
-    font-size: 2.8rem;
+    font-size: 3rem;
   }
   .who_we_are_txt {
     font-size: 2.8rem;
+  }
+  .footer_contact_social_media {
+    margin-bottom: 0;
+    margin-top: 2rem;
   }
 }
 @media only screen and (max-width: 550px) {
@@ -578,8 +573,10 @@ body {
     padding-top: 1.5rem;
     padding-bottom: 1rem;
   }
-  .footer_logo_txt {
-    margin-right: 2rem;
+  .who_we_are_h {
+    padding-right: 3rem;
+    padding-left: 3rem;
+    line-height: 3.5rem;
   }
 }
 
@@ -594,6 +591,9 @@ body {
   .header_intro {
     width: 100%;
     margin-bottom: 12rem;
+  }
+  .footer_logo_txt_wrap {
+    width: 70%;
   }
 }
 
@@ -610,6 +610,7 @@ body {
   }
   .who_we_are_h {
     padding: 0 4rem;
+    
   }
   .who_we_are_txt {
     padding: 0 4rem;
@@ -621,9 +622,9 @@ body {
   .header_hero_btn a {
     font-size: 2.5rem;
   }
-  .footer_logo_txt_wrap {
+  /* .footer_logo_txt_wrap {
     margin-top: 0;
-  }
+  } */
 }
 @media only screen and (max-width: 325px) {
   html {
