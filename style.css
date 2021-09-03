@@ -513,6 +513,10 @@ body {
   .footer_logo_container {
     margin-left: 4rem;
   }
+  .footer_logo_txt_wrap {
+    margin-top: -3rem;
+    line-height: 0;
+  }
   .footer_contact_social_media {
     width: 100%;
   }
@@ -594,6 +598,7 @@ body {
   }
   .footer_logo_txt_wrap {
     width: 70%;
+    margin-top: -3.3rem;
   }
 }
 
@@ -620,10 +625,6 @@ body {
   }
   .header_hero_btn a {
     font-size: 2.5rem;
-  }
-  .footer_logo_txt_wrap {
-    margin-top: -3rem;
-    line-height: 0;
   }
 }
 @media only screen and (max-width: 325px) {
